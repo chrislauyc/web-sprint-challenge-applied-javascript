@@ -13,8 +13,8 @@ const Header = (title, date, temp) => {
   //
   let div = document.createElement('div');
   let date_span = document.createElement('span');
-  let h1 = document.createElement('h1);
-  let temp_span = document.createElment('span');
+  let h1 = document.createElement('h1');
+  let temp_span = document.createElement('span');
   
   div.classList.add('header');
   date_span.classList.add('date');
